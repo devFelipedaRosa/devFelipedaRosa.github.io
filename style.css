@@ -1,23 +1,77 @@
 
-h1{
+#meu-nome{
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 60px;
+    font-size: 30px;
     background-color: aliceblue;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 49px 49px 49px 49px;
+}
 
-  }
+#minha-foto, #minha-historia{
+    display: inline-block;
+       
+}
 
-  h2{
-    font-size: 40px;
-  }
+#minha-foto{
+    background-color: greenyellow;
+    margin: 25px;
+    border-radius: 49px 49px 49px 49px;
+}
 
-  p{
+#foto{
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 49px 49px 49px 49px;
+    box-shadow: 10px 10px 13px 10px rgba(0,0,0,0.75);
+}
+
+#minha-historia{
     font-family: 'Courier New', Courier, monospace;
     text-align: justify;
     background-color: aliceblue;
+    padding: 30px;
+    border-radius: 49px 49px 49px 49px;
+    
+}
 
-  }
+#from{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 200px;
+    margin-right: 800px;
+    padding: 20px;
+    border-radius: 49px 49px 49px 49px;
 
-  body{
+}
+
+#skills{
+    background-color:greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 500px;
+    margin-right: 300px;
+    padding-left: 100px;
+    text-align: justify;
+    border-radius: 49px 49px 49px 49px;
+    
+}
+
+#skills-title{
+    font-size: 40px;
+    text-align: center;
+    background-color:greenyellow;
+    margin-left: 500px;
+    margin-right: 400px;
+    border-radius: 49px 49px 49px 49px;
+
+}
+ 
+body{
     background-color: #a5cdf0;
   }
 
@@ -25,20 +79,20 @@ h1{
     font-family: 'Courier New', Courier, monospace;
   }
 
-  .apple-green{
-    background-color:greenyellow;
-    font-family: 'Courier New', Courier, monospace;
-  }
-
-  .skill-1{
-    font-size: 30px;
-  }
-
-  .skill-2{
+  #skill-1, #skill-3, #skill-5, #skill-7{
     font-size: 25px;
   }
 
-  .brasil{
+  li:hover{
+    color: white;
+  }
 
-    font-size: 30px;
+  #linkfoto a, #linkartigo a, #linklinkedin a, #linktrybe a{
+    background-color: aliceblue;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 49px 49px 49px 49px;
   }
