@@ -1,0 +1,44 @@
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    background-color: aliceblue;
+
+  }
+
+  h2{
+    font-size: 40px;
+  }
+
+  p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    background-color: aliceblue;
+
+  }
+
+  body{
+    background-color: #a5cdf0;
+  }
+
+  a{
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .apple-green{
+    background-color:greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .skill-1{
+    font-size: 30px;
+  }
+
+  .skill-2{
+    font-size: 25px;
+  }
+
+  .brasil{
+
+    font-size: 30px;
+  }
